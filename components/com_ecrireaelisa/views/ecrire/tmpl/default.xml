@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Écrire à Élisa" option="Écrire à Élisa">
+	</layout>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+
+		<!-- Basic options. -->
+		<fieldset name="params"
+			label="Article"
+			addfieldpath="/administrator/components/com_content/models/fields"
+		>
+			<field name="art_id" type="modal_article"
+				label="Choisir un article"
+				required="false"
+				edit="false"
+				select="true"
+				clear="true"
+				descriptionTJ="COM_CONTENT_FIELD_SELECT_ARTICLE_DESC"
+			/>
+		</fieldset>
+	</fields>
+</metadata>
