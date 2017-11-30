@@ -40,6 +40,13 @@ foreach (ContactsHelper::$items as $cntId => $cnt) {
 ?>
   </ul>
 </div>
+
+<div>
+
+<p>Nous écrire</p>
+
+</div>
+
 <?php
 foreach (ContactsHelper::$items as $cntId => $cnt) {
 	$this->currentItem = $cnt;

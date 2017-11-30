@@ -15,4 +15,8 @@
 		<filename>ecrireaelisa.php</filename>
 		<folder>views</folder>
 	</files>
+	<administration>
+		<files folder="admin">
+		</files>
+	</administration>
 </extension>
